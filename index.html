@@ -168,18 +168,18 @@
     </script>
     <script>
         Email.send({
-    Host : "https://smtpjs.com/",
+    Host : "smpt.gmail.com",
     Username : "savi29052003@gmail.com",
-    Password : "password",
-    To : 'savi29052003@gmail.com',
+    Password : "savi29052003",
+    To : 'avinashkrdm@gmail.com',
     From : documnet.getElemntByID ("email").value,
     Subject : "Cloths Order",
     Body : "Name :" + document.getElemntByID("name").value
-    + "<br> Number :" + document.getElemntByID("number").value
-    + "<br> Number :" + document.getElemntByID("mail").value
-    + "<br> Number :" + document.getElemntByID("color").value
-    + "<br> Number :" + document.getElemntByID("size").value
-    + "<br> Number :" + document.getElemntByID("Quantity").value
+    + "<br> number :" + document.getElemntByID("number").value
+    + "<br> gmail :" + document.getElemntByID("gmail").value
+    + "<br> color :" + document.getElemntByID("color").value
+    + "<br> size :" + document.getElemntByID("size").value
+    + "<br> Quantity :" + document.getElemntByID("Quantity").value
 }).then(
   message => alert("message send Sucessfully")
 );
